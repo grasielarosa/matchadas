@@ -46,6 +46,12 @@ button{
     border-style: none;
 }
 
+.square{
+    border:1px solid transparent;
+    border-radius: 10px;
+  
+  }
+
 .container{
     width: 600px;
     height: 100%;
