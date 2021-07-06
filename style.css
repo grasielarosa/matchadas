@@ -46,12 +46,6 @@ button{
     border-style: none;
 }
 
-.square{
-    border:1px solid transparent;
-    border-radius: 10px;
-  
-  }
-
 .container{
     width: 600px;
     height: 100%;
@@ -77,12 +71,31 @@ button{
     filter: drop-shadow(2px 2px 2px #3b3636) ;  
 }
 
+.grid{
+    width: 504px;
+    height: 504px;
+    border-radius: 5px;
+    background-color:rgb(255 255 255 / 40%);
+    border: 4px #34323a solid;
+    position: relative;
+}
+
 .rating{
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+.square{
+    border:1px solid transparent;
+    border-radius: 10px;
+  
+}
+.square:active{
+    border:2px solid  #f87372;
+    border-radius: 10px;
+    transition-delay: 0ms;
 }
 
 .timer{
@@ -100,3 +113,18 @@ button{
     margin: 20px 0;
     filter: drop-shadow(2px 2px 2px #3b3636) ;
     }
+
+/* sweet Alert */
+.modal{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-play{
+    width: 100px;
+    height:40px;
+    border: 2px solid #f87372;
+    font-family: 'Poppins';
+}
